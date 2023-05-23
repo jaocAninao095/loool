@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(12, 16, 27);
     color: #fff;
 }
 
@@ -7,10 +7,12 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
+    text-decoration: underline;
 }
 
 p {
     text-align: center;
+    font-weight: 1000;
 }
 
 /*imagen*/
@@ -47,20 +49,17 @@ picture img {
     background-color: #686464;
 }
 
-/*Dark Souls I*/
-#londo {
-    display: flex;
+/*espada mortal*/
+#sen body {
+    background-color: #74370e;
+}
+
+#senpimagen picture {
+    display: block;
     justify-content: center;
 }
 
-#londo {
-    width: 100%;
+#senpimagen picture img {
+    width: 70%;
 }
 
-/*Dark Souls II*/
-
-/*ds II*/
-#lothric {
-    display: flex;
-    justify-content: center;
-}
