@@ -1,18 +1,27 @@
+/*pag inicial*/
 body {
     background-color: rgb(12, 16, 27);
-    color: #fff;
+    
 }
-
 h1 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
     text-decoration: underline;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #fff;
 }
 
 p {
     text-align: center;
     font-weight: 1000;
+    color: #fff;
 }
 
 /*imagen*/
@@ -50,16 +59,82 @@ picture img {
 }
 
 /*espada mortal*/
-#sen body {
-    background-color: #74370e;
+#senpo {
+    background-color: #881d0f;
 }
-
-#senpimagen picture {
-    display: block;
+.sen {
+    color: #f1dcaf;
+}
+#senpimagen {
+    display: flex;
     justify-content: center;
+    width: 60%;
+    height: 60%;
+    border: 5px solid #ec2e15;
+    border-radius: 5px;
+    padding: 2px;
+}
+#senboton {
+    text-decoration: none;
+    color: #f1dcaf;
+    border: 2px solid rgb(206, 47, 47);
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#senboton:hover {
+    background-color: #8f2618;
 }
 
-#senpimagen picture img {
+/*loto del palacio*/
+#valle {
+    background-color: #212129;
+}
+.sum {
+    color: rgb(202, 202, 202);
+}
+#vallesumer {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    border: 5px solid #1f1e1e;
+    border-radius: 5px;
+    padding: 2px;
+}
+#valleboton {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    border: 2px solid #afaeae;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#valleboton:hover {
+    background-color: #3f3737;
+}
+
+/*piedra fragante*/
+#mibu {
+
+}
+.mib {
+
+}
+#aldea {
+    display: flex;
+    justify-content: center;
     width: 70%;
+    height: 50%;
+    border: 5px solid #1f1e1e;
+    border-radius: 5px;
+    padding: 2px;
 }
-
+#miboton {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    border: 2px solid #0f110f;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
