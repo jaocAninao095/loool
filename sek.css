@@ -116,10 +116,10 @@ picture img {
 
 /*piedra fragante*/
 #mibu {
-
+background-color: #28292e;
 }
 .mib {
-
+color: #b3b1ae;
 }
 #aldea {
     display: flex;
@@ -130,11 +130,14 @@ picture img {
     border-radius: 5px;
     padding: 2px;
 }
-#miboton {
+#mibot {
     text-decoration: none;
     color: rgb(202, 202, 202);
-    border: 2px solid #0f110f;
+    border: 2px solid #3b423b;
     padding: 5px;
     border-radius: 5px;
     display: inline-block;
+}
+#mibot:hover {
+    background-color: #686464;
 }
